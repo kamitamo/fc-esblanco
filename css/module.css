@@ -1,0 +1,33 @@
+@charset "shift_jis";
+
+/* 
+
+module.css
+
+*/
+
+.clear {
+	clear:both;
+}
+
+.clearfix {
+    zoom:1;/*for IE 5.5-7*/
+}
+
+.clearfix:after {/*for modern browser*/
+    content:".";
+    display: block;
+    height:0px;
+    clear:both;
+    visibility:hidden;
+}
+
+ul.inline li {
+	display:inline;
+}
+
+ul.inline li ul {
+	display:inline;
+	margin:0;
+	padding:0;
+}

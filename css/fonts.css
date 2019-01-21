@@ -1,0 +1,30 @@
+@charset "shift_jis";
+
+/* 
+
+fonts.css
+
+*/
+
+
+
+/* ---------- “w’è -------------------------------------------------- */
+
+.to8  {	font-size: 50%; }
+.to9  {	font-size: 56%; }
+.to10 {	font-size: 63%; }
+.to11 {	font-size: 69%; }
+.to12 {	font-size: 75%; }
+.to14 {	font-size: 88%; }
+.to16 {	font-size:100%; }
+.to18 {	font-size:112%; }
+.to20 {	font-size:125%; }
+.to24 {	font-size:150%; }
+.to28 {	font-size:175%; }
+.to32 {	font-size:200%; }
+
+/* ---------- ƒtƒHƒ“ƒgw’è -------------------------------------------------- */
+
+.ffamily	{ font-family:Verdana, meiryo, "ƒqƒ‰ƒMƒmŠpƒS Pro W3"; }
+.ffamily_01 { font-family:"‚l‚r ‚oƒSƒVƒbƒN", Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3"; }
+.ffamily_02 { font-family:Arial, Helvetica, sans-serif; }
