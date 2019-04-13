@@ -148,7 +148,7 @@ a:active	{ color: #0b2c4d; text-decoration: none; }
 	position:absolute;
 	padding-left:10px;
 }
-#menu .home:hover, .about:hover, .map:hover, .coach:hover, .joinclub:hover {
+#menu .home:hover, .about:hover, .map:hover, .coach:hover, .joinclub:hover .result:hover .schedule:hover .link:hover{
 	text-decoration:underline;
 	color:#d7bc5d !important;
 }
@@ -156,7 +156,7 @@ a:active	{ color: #0b2c4d; text-decoration: none; }
 	background:url(../img/menu_home.png) 0px 0px no-repeat;
 	float:left;
 	padding:0 10px 0 30px;
-	margin-right:20px;
+	margin-right:10px;
 	border-right:1px solid #7d7d7d;
 	height:30px;
 	font-size:17px;
@@ -194,7 +194,7 @@ a:active	{ color: #0b2c4d; text-decoration: none; }
 	font-size:17px;
 	color:#666666;
 	line-height:28px;
-	margin-right:20px;
+	margin-right:10px;
 }
 #menu a .joinclub {
 	background:url(../img/menu_joinclub.png) 0px 0px no-repeat;
@@ -220,6 +220,17 @@ a:active	{ color: #0b2c4d; text-decoration: none; }
 }
 #menu a .schedule {
 	background:url(../img/menu_schedule.png) 0px 0px no-repeat;
+	float:left;
+	padding:0 10px 0 30px;
+	border-right:1px solid #7d7d7d;
+	height:30px;
+	font-size:17px;
+	color:#666666;
+	line-height:28px;
+	margin-right:10px;
+}
+#menu a .link {
+	background:url(../img/menu_home.png) 0px 0px no-repeat;
 	float:left;
 	padding:0 10px 0 30px;
 	border-right:1px solid #7d7d7d;
