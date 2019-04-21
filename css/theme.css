@@ -148,7 +148,7 @@ a:active	{ color: #0b2c4d; text-decoration: none; }
 	position:absolute;
 	padding-left:10px;
 }
-#menu .home:hover, .about:hover, .map:hover, .coach:hover, .joinclub:hover .result:hover .schedule:hover .link:hover{
+#menu .home:hover, .about:hover, .map:hover, .coach:hover, .joinclub:hover, .result:hover, .schedule:hover, .link:hover{
 	text-decoration:underline;
 	color:#d7bc5d !important;
 }
