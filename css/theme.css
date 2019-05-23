@@ -786,6 +786,10 @@ body {
 .schedule {
     padding: 40px 0 50px;
 }
+.img-responsive {
+    max-width: 100%;
+    height: auto;    
+}
 .img-cnt {
     margin: 0 auto;
     display: block;
