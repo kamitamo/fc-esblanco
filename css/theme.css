@@ -749,6 +749,12 @@ body {
         display: none;
     }
     .small-container {
+       width:300px;
+       height:350px;
+       overflow:auto;
+       -webkit-overflow-scrolling:touch;
+       display: inline-block;
+       margin: 10px;
        padding-bottom: 200%;   /* 高さ */
     }
 }
