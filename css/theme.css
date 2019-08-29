@@ -35,7 +35,7 @@ body {
 #navigation {	/* その他ボックス */
 }
 #footer {	/* フッター */
-	height:30px;
+	height:50px;
 	background-color:#000000;
 	color:#FFFFFF;
 	font-size:11px;
@@ -44,10 +44,15 @@ body {
 
 /* ---------- リンク色指定 ---------------------------------------- */
 
-a:link		{ color: #0b2c4d; text-decoration: underline; }
-a:visited	{ color: #0b2c4d; text-decoration: underline; }
-a:hover		{ color: #d6be5c; text-decoration: underline; }
-a:active	{ color: #0b2c4d; text-decoration: none; } 
+a.normal:link		{ color: #0b2c4d; text-decoration: underline; }
+a.normal:visited	{ color: #0b2c4d; text-decoration: underline; }
+a.normal:hover		{ color: #d6be5c; text-decoration: underline; }
+a.normal:active	{ color: #0b2c4d; text-decoration: none; } 
+
+a.privacy:link	{ color: #FFFFFF; text-decoration: underline; }
+a.privacy:visited	{ color: #FFFFFF; text-decoration: underline; }
+a.privacy:hover	{ color: #d6be5c; text-decoration: underline; }
+a.privacy:active	{ color: #FFFFFF; text-decoration: none; } 
 
 .title{
 	font-size:30px;
