@@ -32,9 +32,12 @@ $(function(){
   });
   $(window).resize(function(){
     var win = $(window).width();
-    var p = 480;
-    if(win > p){
+    if(win > 480){
         $("#s_menu").show();
+    } else if (win < 640) {
+        $(".toggleImg").each(function() {
+            $(this).attr("src", $(this).attr("src").replace("_pc","_sp"));
+        })
     }
   });
 });
@@ -104,13 +107,13 @@ $(function(){
 <section class="slider">
 <div class="flexslider">
 <ul class="slides">
-<li><img src="img/slide00.jpg" alt="U-7"/></li>
-<li><img src="img/slide99.jpg" alt="U-6"/></li>
-<li><img src="img/slide01.jpg" alt="U-8"/></li>
-<li><img src="img/slide02.jpg" alt="U-9"/></li>
-<li><img src="img/slide03.jpg" alt="U-10"/></li>
-<li><img src="img/slide04.jpg" alt="U-11"/></li>
-<li><img src="img/slide05.jpg" alt="U-12"/></li>
+<li><img class="toggleImg" src="img/slide00_pc.jpg" alt="U-7"/></li>
+<li><img class="toggleImg" src="img/slide99_pc.jpg" alt="U-6"/></li>
+<li><img class="toggleImg" src="img/slide01_pc.jpg" alt="U-8"/></li>
+<li><img class="toggleImg" src="img/slide02_pc.jpg" alt="U-9"/></li>
+<li><img class="toggleImg" src="img/slide03_pc.jpg" alt="U-10"/></li>
+<li><img class="toggleImg" src="img/slide04_pc.jpg" alt="U-11"/></li>
+<li><img class="toggleImg" src="img/slide05_pc.jpg" alt="U-12"/></li>
 </ul>
 </div>
 </section>
